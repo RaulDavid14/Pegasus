@@ -1,3 +1,3 @@
 <?php
-    include "includes/navbar.php";
+    header("location: views/login.php");
 ?>

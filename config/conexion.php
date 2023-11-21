@@ -4,7 +4,7 @@ ini_set('max_execution_time',2400);
 
 class Conexion
 {
-	public function crearConexion($sServidor = null, $sUsuario = null, $sPassword = null, $sBase = null)
+	public static function crearConexion($sServidor = null, $sUsuario = null, $sPassword = null, $sBase = null)
 	{
 		try
 		{
@@ -12,7 +12,7 @@ class Conexion
 		}
 		catch(Exception $error)
 		{
-            return null;
+			return null;
 		}
 	}	
 }
