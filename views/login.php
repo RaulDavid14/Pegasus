@@ -21,12 +21,13 @@
   
   <form action="inicio.php" method="post">
     <h1 class="h3 mb-3 fw-normal">Bienvenido</h1>
-    <img class="mb-4" src="../src/img/sedena.png" alt="" width="90" height="70">
+    <img class="mb-4" src="../src/img/sedena.png" alt="" width="120" height="70">
 
     <div class="form-floating mt-1">
-      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required autocomplete="off">
-      <label for="floatingInput">Usuario</label>
+      <input type="number" class="form-control" id="floatingInput" placeholder="Número" required autocomplete="off" pattern="[0-9]+" title="Por favor, ingresa solo números">
+      <label for="floatingInput">Número</label>
     </div>
+
     <div class="form-floating mt-1">
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
       <label for="floatingPassword">Constraseña</label>

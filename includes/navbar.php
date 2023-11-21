@@ -1,7 +1,7 @@
-  <script src="src/js/bootstrap.min.js"></script>
-  <script src="src/js/jquery-3.7.0.min.js"></script>
-  <link rel="stylesheet" href="src/css/bootstrap.min.css">
-  <link rel="stylesheet" href="src/css/navbar.css">
+  <script src="../src/js/bootstrap.min.js"></script>
+  <script src="../src/js/jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="../src/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../src/css/navbar.css">
  
 <ul class="navbar navbar-dark bg-dark nav-pills nav-fill">
   <li class="nav-item">
@@ -20,6 +20,6 @@
     <a class="nav-link" href="#">Empleados</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link" href="#" tabindex="-1" aria-disabled="false"></a>
   </li>
 </ul>
