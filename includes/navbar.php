@@ -5,10 +5,10 @@
  
 <ul class="navbar navbar-dark bg-dark nav-pills nav-fill">
   <li class="nav-item">
-    <a class="nav-link " aria-current="page" href="#">Inicio </a>
+    <a class="nav-link " aria-current="page" href="../views/inicio.php">Inicio </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " aria-current="page" href="#">Pacientes</a>
+    <a class="nav-link " aria-current="page" href="../views/modal.php">Pacientes</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Administrativos</a>
@@ -17,9 +17,9 @@
     <a class="nav-link" href="#">Usuarios</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Empleados</a>
+    <a class="nav-link" href="../views/empleados.php">Empleados</a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#" tabindex="-1" aria-disabled="false"></a>
+  <li class="nav-item bg-danger">
+    <a class="nav-link" href="#" tabindex="-1">Salir</a>
   </li>
 </ul>
