@@ -1,9 +1,15 @@
-function openModal() 
+function showModal()
 {
-    document.getElementById('miModal').style.display = 'block';
+    if ($('#miModal').css('display') == 'none')
+        $('#miModal').css('display', 'block');
+    else
+        $('#miModal').css('display', 'none');
 }
 
-function closeModal() 
-{
-    document.getElementById('miModal').style.display = 'none';
-}
+$(document).ready(function(){
+    $('#idSearchUser').on('keydown', function(event) {
+        if (!isNumber(event)) 
+          event.preventDefault();
+        
+    });
+});

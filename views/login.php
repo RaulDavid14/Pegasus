@@ -11,6 +11,7 @@
     <script src="../src/js/bootstrap.min.js"></script>
     <script src="../src/js/jquery-3.7.0.min.js"></script>
     <script src="../src/js/login.js"></script>
+    <script src="../src/js/funciones.js"></script>
     <link rel="stylesheet" href="../src/css/bootstrap.min.css">
     <link rel="stylesheet" href="../src/css/signin.css">
 
@@ -36,7 +37,7 @@
       <label for="floatingPassword">Constraseña</label>
     </div>
 
-    <button id="idLogin" class="w-100 btn btn-outline-danger mt-5" type="submit">Ingresar</button>
+    <button id="idLogin" class="w-100 btn btn-outline-danger mt-5" type="button">Ingresar</button>
     <p class="mt-5 mb-3 text-muted">Derechos reservados  &copy;Pegasus <?php echo $sFecha; ?></p>
   </form>
 

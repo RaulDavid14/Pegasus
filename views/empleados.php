@@ -6,6 +6,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="../src/css/altaEmpleado.css">
+    <script src="../src/js/funciones.js"></script>
     <script src="../src/js/altaEmpleado.js"></script>
 
     <title>Empleados</title>
@@ -16,11 +17,11 @@
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <div class="col-12 col-sm-8 col-lg-4">
-        <button id="idvalidar" type="button" onclick="openModal()" class="btn btn-outline-success ml-4 col-md-5">Alta de usuario</button>
+        <button id="idvalidar" type="button" onclick="showModal()" class="btn btn-outline-success ml-4 col-md-5">Alta de usuario</button>
       </div>
       <div class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="ID empleado" aria-label="Search">
-        <button class="btn btn-outline-primary"  >Buscar</button>
+        <input id="idSearchUser" class="form-control me-2" type="search" placeholder="ID empleado" aria-label="Search">
+        <button  class="btn btn-outline-primary"  >Buscar</button>
       </div>
     </div>
   </nav>    
@@ -29,7 +30,7 @@
 <!-- MODAL DE FORMULARIO DE ALTA DE EMPLEADOS -->
 <div id="miModal" class="modal">
     <div class="modal-content">
-        <span onclick="closeModal()" style="float:right; cursor:pointer;">&times;</span>
+        <span onclick="showModal()" style="float:right; cursor:pointer;">&times;</span>
         
         <form>
             <div class="mt-2">
