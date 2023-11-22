@@ -9,23 +9,21 @@
     <script src="../src/js/altaEmpleado.js"></script>
 
     <title>Empleados</title>
-
-    
 </head>
 <body>
 
 <div id="Opciones"> 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-        <div class="col-12 col-sm-8 col-lg-4">
-            <button id="idvalidar" type="button" onclick="openModal()" class="btn btn-outline-success ml-4 col-md-5">Alta de usuario</button>
-        </div>
-        <div class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="ID empleado" aria-label="Search">
-            <button class="btn btn-outline-success"  >Buscar</button>
-        </div>
+      <div class="col-12 col-sm-8 col-lg-4">
+        <button id="idvalidar" type="button" onclick="openModal()" class="btn btn-outline-success ml-4 col-md-5">Alta de usuario</button>
+      </div>
+      <div class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="ID empleado" aria-label="Search">
+        <button class="btn btn-outline-primary"  >Buscar</button>
+      </div>
     </div>
-    </nav>    
+  </nav>    
 </div>
 
 <!-- MODAL DE FORMULARIO DE ALTA DE EMPLEADOS -->
@@ -84,13 +82,21 @@
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>@fat</td>
+      <td>
+        <button class="btn btn-outline-primary">Ver</button>
+        <button class="btn btn-outline-warning">Actualizar</button>
+        <button class="btn btn-outline-danger">Eliminar</button>
+      </td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td> Larry the Bird</td>
       <td> CORONEL </td>
-      <td>@twitter</td>
+      <td>
+        <button class="btn btn-outline-primary">Ver</button>
+        <button class="btn btn-outline-warning">Actualizar</button>
+        <button class="btn btn-outline-danger">Eliminar</button>
+      </td>
     </tr>
   </tbody>
 </table>
