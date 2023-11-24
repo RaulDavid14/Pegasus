@@ -30,18 +30,30 @@
 <!-- MODAL DE FORMULARIO DE ALTA DE EMPLEADOS -->
 <div id="miModal" class="modal">
     <div class="modal-content">
-        <span onclick="showModal()" style="float:right; cursor:pointer;">&times;</span>
+      <div class="text-right">
+        <span onclick="showModal()" style="float:right; cursor:pointer;" class="">&times;</span>
+      </div>
         
         <form>
             <div class="mt-2">
-                <label for="idPrimerNombre">Primer Nombre</label>    
-                <input type="text" id="idPrimerNombre">
-                
-                <label for="idSegundoNombre">Segundo Nombre</label>
-                <input type="text" id="idSegundoNombre" name="idSegundoNombre">
-                
-                <label for="idTercerNombre">Tercer Nombre</label>
-                <input type="email" id="idTercerNombre" name="idTercerNombre">
+                <div class="col-4">
+                  <label for="idPrimerNombre">Primer Nombre</label>    
+                </div>
+                <div class="col-4">
+                  <input type="text" id="idPrimerNombre">
+                </div>
+                <div class="col-4">
+                  <label for="idSegundoNombre">Segundo Nombre</label>
+                </div>
+                <div class="col-4">
+                  <input type="text" id="idSegundoNombre" name="idSegundoNombre">
+                </div>
+                  <div class="col-4">
+                    <label for="idTercerNombre">Tercer Nombre</label>
+                  </div>              
+                  <div class="col-4">
+                    <input type="email" id="idTercerNombre" name="idTercerNombre">
+                  </div>  
             </div>
 
             <div class="mt-2" >
@@ -51,8 +63,11 @@
                 <label for="idMaterno">Apellido Materno </label>    
                 <input type="text" id="idMaterno">
             </div>
+            <div class="modal-footer text-center">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" class="btn btn-primary">Guardar cambios</button>
+            </div>      
                 
-            <input type="submit"  value="Enviar">
         </form>
     </div>
 </div>
