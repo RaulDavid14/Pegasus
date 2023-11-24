@@ -20,6 +20,6 @@
     <a class="nav-link" href="../views/empleados.php">Empleados</a>
   </li>
   <li class="nav-item bg-danger">
-    <a class="nav-link" href="#" tabindex="-1">Salir</a>
+    <a class="nav-link" href="../controllers/salir.php" tabindex="-1">Salir</a>
   </li>
 </ul>

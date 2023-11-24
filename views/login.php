@@ -21,7 +21,9 @@
 <body class="text-center">
     
 <main class="form-signin">
-  <div></div>
+  <div class="col-12 text-center">
+    <div id="idResultado" class="col-12 text-center"></div>
+  </div>
   
   <form action="inicio.php" method="post">
     <h1 class=" mb-3 fw-normal">Bienvenido</h1>
@@ -37,7 +39,7 @@
       <label for="floatingPassword">Constraseña</label>
     </div>
 
-    <button id="idLogin" class="w-100 btn btn-outline-danger mt-5" type="button">Ingresar</button>
+    <button id="idLogin" class="w-100 btn btn-outline-danger mt-5" >Ingresar</button>
     <p class="mt-5 mb-3 text-muted">Derechos reservados  &copy;Pegasus <?php echo $sFecha; ?></p>
   </form>
 
