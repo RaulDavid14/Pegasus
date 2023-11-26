@@ -8,7 +8,7 @@
     <a class="nav-link " aria-current="page" href="../views/inicio.php">Inicio </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link " aria-current="page" href="../views/modal.php">Pacientes</a>
+    <a class="nav-link " aria-current="page" href="#">Pacientes</a>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="#">Administrativos</a>

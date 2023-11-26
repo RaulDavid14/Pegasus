@@ -15,3 +15,8 @@ function isNumber(event)
     else
       return false;
 }
+
+function hacer_mayuscula(valor)
+{
+  valor.value = valor.value.toUpperCase();
+}
