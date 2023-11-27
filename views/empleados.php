@@ -68,12 +68,12 @@
             </div>
 
             <div class="col-3 col-sm-4 col-lg-5 mt-2">
-              <label for="inptIdApePat" class="col-form-label col-form-label-sm ml-2"><span class="text-danger">*</span><b>RFC</b></label>
+              <label for="inptIdRFC" class="col-form-label col-form-label-sm ml-2"><span class="text-danger">*</span><b>RFC</b></label>
               <input id="inptIdApePat" name="inptIdApePat" type="text" class="form-control form-control-sm mt-n1" onkeyup="hacer_mayuscula(this);" required>
             </div>
 
             <div class="col-3 col-sm-4 col-lg-7 mt-2">
-              <label for="inptIdApeMat" class="col-form-label col-form-label-sm ml-2"><span class="text-danger">*</span><b>CURP</b></label>
+              <label for="inptIdCURP" class="col-form-label col-form-label-sm ml-2"><span class="text-danger">*</span><b>CURP</b></label>
               <input id="inptIdApeMat" name="inptIdApeMat" type="text" class="form-control form-control-sm mt-n1" onkeyup="hacer_mayuscula(this);" required>
             </div>
             

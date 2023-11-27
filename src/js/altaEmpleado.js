@@ -10,14 +10,14 @@ function alta_usuario()
 {
 
     $('#btnCrearPersonal').on('click', function() {
-        var sPNombre = $('').val();
-        var sSNombre = $('').val();
-        var sTNombre = $('').val();
-        var sPaterno = $('').val();
-        var sMaterno = $('').val();
-        var sRFC = $('').val();
-        var sCURP = $('').val();
-        var dFecNacimiento = $('').val();
+        var sPNombre = $('#inptIdPriNom').val();
+        var sSNombre = $('#inptIdSegNom').val();
+        var sTNombre = $('#inpIdTerNom').val();
+        var sPaterno = $('#inpIdApePat').val();
+        var sMaterno = $('#inpIdApeMat').val();
+        var sRFC = $('#inptIdRFC').val();
+        var sCURP = $('#inptIdCURP').val();
+        var dFecNacimiento = $('#inp').val();
         showModal();
     });
 
@@ -29,8 +29,8 @@ function alta_usuario()
         paterno : sPaterno,
         materno : sMaterno,
         rfc     : sRFC,
-        curp    : sCURP
-        
+        curp    : sCURP,
+        fecNac  : dFecNacimiento
     };
     
     $.ajax({
